@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.primonutmeg" name="PRIMO NUTMEG" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Primo Nutmeg</summary>
+    <description lang="en">The podcast started in August 2015 as a source for groundbreaking discussions on news, culture, politics, entertainment and economics. ​Guests on the podcast have included Noam Chomsky, Ron Paul, Richard Wolff, Matt Taibbi, Abby Martin, Ralph Nader, Jill Stein, Donovan, Ken Shamrock, Royce Gracie, Jake "The Snake" Roberts, Glenn "Kane" Jacobs, John McAffee, Bob Backlund, Jason David Frank, Amy Jo Johnson, Medea Benjamin and Cynthia McKinney, just to name a few</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/PrimoNutmeg</source>
+    <website>https://www.primonutmeg.com/</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
