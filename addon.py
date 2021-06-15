@@ -9,11 +9,11 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "https://is5-ssl.mzstatic.com/image/thumb/Podcasts113/v4/68/6d/f7/686df76c-2424-4929-ec32-6a42bf0a4f49/mza_4331906737896123301.jpg/600x600bb.jpg"},
+            'thumbnail': "https://storage.buzzsprout.com/variants/5gbunm7tbw3ofsrd269ll09338mk/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': "https://is5-ssl.mzstatic.com/image/thumb/Podcasts113/v4/68/6d/f7/686df76c-2424-4929-ec32-6a42bf0a4f49/mza_4331906737896123301.jpg/600x600bb.jpg"},
+            'thumbnail': "https://storage.buzzsprout.com/variants/5gbunm7tbw3ofsrd269ll09338mk/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg"},
     ]
     return items
 

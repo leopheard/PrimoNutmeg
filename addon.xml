@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.primonutmeg" name="PRIMO NUTMEG" version="1.0.0" provider-name="leopheard">
+<addon id="plugin.audio.primoradical" name="PRIMO RADICAL" version="1.0.0" provider-name="leopheard">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -13,19 +13,19 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language>en_us</language>
-    <summary lang="en">Primo Nutmeg</summary>
+    <summary lang="en">Primo Radical</summary>
     <description lang="en">The podcast started in August 2015 as a source for groundbreaking discussions on news, culture, politics, entertainment and economics. ​Guests on the podcast have included Noam Chomsky, Ron Paul, Richard Wolff, Matt Taibbi, Abby Martin, Ralph Nader, Jill Stein, Donovan, Ken Shamrock, Royce Gracie, Jake "The Snake" Roberts, Glenn "Kane" Jacobs, John McAffee, Bob Backlund, Jason David Frank, Amy Jo Johnson, Medea Benjamin and Cynthia McKinney, just to name a few</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
     <source>https://github.com/leopheard/PrimoNutmeg</source>
-    <website>https://www.primonutmeg.com/</website>
+    <website>https://www.primoradical.com/</website>
         	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
 			<screenshot>resources/media/icon.jpg</screenshot>
-			<screenshot>resources/media/icon.jpg</screenshot>
-			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
